@@ -27,6 +27,13 @@ Input: (seq_len, batch, feature)
 Input: (batch, seq_len, feature) 
 
 ### Related parameters:
+`input_size`: 每个时间步 (timestamp) 包含的feature数量。时间步不同于seq_len, 当seq_len=5时，代表有五个时间步。对于本项目来说，一个时间步就是金价的一个交易日，每个交易日只有一个价格，所以input_size应该为1。
+
+`hidden_size`: 
+
+`num_layers`:
+
+`output`
 
 
 ### The difference between RNN, LSTM and GRU:
