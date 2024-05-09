@@ -43,10 +43,15 @@ Input: (batch, seq_len, feature)
 </div> 
 
 
-`output`
+`output`:  
+RNN and GRU: 
+数据经过nn.RNN 或者 nn.GRU处理过后，产生的output包含两部分，一个是output, 一个是hidden_state.
+
+LSTM:
+不仅有output, hidden_state, 还包括了ct（细胞状态）。
 
 
-### The difference between RNN, LSTM and GRU:
+使用 out[:, -1, :] 这种索引方式非常常见于处理序列数据的任务中，尤其是当你只需要序列最后一个时间步的输出来进行决策或预测时。在黄金价格预测中，如果你的序列是过去几天的价格，而你的任务是预测下一天的价格，你可能只需要最后一个时间步的隐藏状态来做出预测。
 
 
 
