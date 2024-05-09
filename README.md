@@ -75,17 +75,17 @@ num_layers=2，你实际上是在构建一个多层（堆叠）RNN。在这种�
 #### Training process
 RNN
 <div align="center">
-  <img src="images/model.png" width="700" />
+  <img src="images/RNN.png" width="300" />
 </div> 
 
 LSTM
 <div align="center">
-  <img src="images/model.png" width="700" />
+  <img src="images/LSTM.png" width="300" />
 </div> 
 
 GRU
 <div align="center">
-  <img src="images/model.png" width="700" />
+  <img src="images/GRU.png" width="300" />
 </div> 
 
 
