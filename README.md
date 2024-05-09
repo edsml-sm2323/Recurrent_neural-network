@@ -2,9 +2,15 @@
 Basic RNN, Long Short-Term Memory (LSTM)，Gated Recurrent Unit (GRU). Use the daily price of gold to predict the future gold price.
 
 ## Related files: 
-`daily_gold_rate.csv`: Dataset for training the model.
+`daily_gold_rate.csv`: Dataset for training the model. 
+<div align="center">
+  <img src="images/data.png" width="500" />
+</div> 
 
-`model.py`: Model structure for RNN, LSTM, GRU.
+`model.py`: Model structure for RNN, LSTM, GRU. 
+<div align="center">
+  <img src="images/model.png" width="700" />
+</div> 
 
 `dataloader.py`: Create dataset suitable for the above models. 
 
