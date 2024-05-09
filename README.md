@@ -18,7 +18,13 @@ Basic RNN, Long Short-Term Memory (LSTM)，Gated Recurrent Unit (GRU). Use the d
 
 ## Important concepts:
 ### Suitable data for model:
+`batch_first` = False
 
+Input: (seq_len, batch, feature) 
+
+`batch_first` = True
+
+Input: (batch, seq_len, feature) 
 
 ### Related parameters:
 
