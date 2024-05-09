@@ -1,18 +1,23 @@
-# Recurrent_neural-network
-Basic RNN, Long Short-Term Memory (LSTM)，Gated Recurrent Unit (GRU)
+# Recurrent Neural Network
+Basic RNN, Long Short-Term Memory (LSTM)，Gated Recurrent Unit (GRU). Use the daily price of gold to predict the future gold price.
 
-## Project 1: Use LSTM to predict gold prices (pytorch)
-### Related files: 
-Datasets: `annual_gold_rate.csv` and `daily_gold_rate.csv`. 
+## Related files: 
+`daily_gold_rate.csv`: Dataset for training the model.
 
-Model construction and training: `gold_rate_predict.ipynb`. 
+`model.py`: Model structure for RNN, LSTM, GRU.
 
-Trained model: `best_model.pth`. 
+`dataloader.py`: Create dataset suitable for the above models. 
 
-### Specific implementation:
-Step 1: Conduct data analysis, find missing values, outliers, etc., and check the correlation between each data. 
+`train.py`: Training the model and get the .pth files.
 
-Step 2: Use pytorch to build a suitable GoldPriceDataset so that the Dataloader can output data suitable for LSTM. 
+## Important concepts:
+### Suitable data for model:
 
-Step 3: training and prediction. 
+
+### Related parameters:
+
+
+### The difference between RNN, LSTM and GRU:
+
+
 
